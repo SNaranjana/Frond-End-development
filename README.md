@@ -4,5 +4,7 @@
 <img width="1917" height="1079" alt="Screenshot 2026-02-16 094417" src="https://github.com/user-attachments/assets/121d762a-3196-4a12-9e1d-411bce9baa24" />
 /> https://snaranjana.github.io/Frond-End-development/regations form.html
 <img width="1919" height="1079" alt="Screenshot 2026-02-16 100531" src="https://github.com/user-attachments/assets/53b8845d-7a5d-4c41-91e2-0a03984ba4a1" />
+/> https://snaranjana.github.io/Frond-End-development/personal profile page.html
+<img width="1918" height="1073" alt="Screenshot 2026-02-16 100807" src="https://github.com/user-attachments/assets/7a430f14-575e-4779-999b-de3258642996" />
 
 
