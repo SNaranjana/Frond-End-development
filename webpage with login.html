@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login & Landing Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+        }
+
+        /* Login Section */
+        .login-container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 300px;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4facfe;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00c6ff;
+        }
+
+        /* Landing Page */
+        .landing-page {
+            display: none;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+            height: 100vh;
+        }
+
+        .landing-page h1 {
+            color: #333;
+        }
+    </style>
+
+    <script>
+        function loginUser() {
+            alert("Login Successful!");
+
+            document.getElementById("loginSection").style.display = "none";
+            document.getElementById("landingSection").style.display = "block";
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Login Page -->
+    <div class="login-container" id="loginSection">
+        <div class="login-box">
+            <h2>Login</h2>
+            <input type="text" placeholder="Enter Username" required><br>
+            <input type="password" placeholder="Enter Password" required><br>
+            <button onclick="loginUser()">Login</button>
+        </div>
+    </div>
+
+    <!-- Landing Page -->
+    <div class="landing-page" id="landingSection">
+        <h1>Welcome to Landing Page</h1>
+        <p>You have successfully logged in.</p>
+    </div>
+
+</body>
+</html>
