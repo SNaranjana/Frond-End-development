@@ -9,6 +9,9 @@
  https://snaranjana.github.io/Frond-End-development/webpage with login
  <img width="1895" height="1079" alt="Screenshot 2026-02-23 085655" src="https://github.com/user-attachments/assets/1a50dd05-3603-4d2b-a378-26b204d180e8" />
  <img width="1367" height="1079" alt="Screenshot 2026-02-23 085711" src="https://github.com/user-attachments/assets/2f0fbdb0-0daa-458f-bad9-58151ea8d035" />
+ https://snaranjana.github.io/Frond-End-development/Navigation Bar With Dropdown project2
+ <img width="1581" height="1055" alt="Screenshot 2026-02-26 150222" src="https://github.com/user-attachments/assets/91900e6c-c4c9-477a-ad8d-78867a66d4ac" /><img width="1403" height="983" alt="Screenshot 2026-02-26 150243" src="https://github.com/user-attachments/assets/2acd857b-8311-4511-96ff-7f7d9c4a1d11" />
+
 
 
  
