@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Naranjana Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        .brand {
+            float: left;
+            color: yellow;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 14px 20px;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+        /* Dropdown */
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            color: white;
+            padding: 14px 20px;
+            background-color: inherit;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Page Sections */
+        .section {
+            padding: 100px 20px;
+            margin-top: 60px;
+            height: 100vh;
+        }
+
+        #home { background-color: #f4f4f4; }
+        #about { background-color: #e2e2e2; }
+        #contact { background-color: #d0d0d0; }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="brand">Niranjana Sivakumar</div>
+
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+
+    <div class="dropdown">
+        <button class="dropbtn">Services ▼</button>
+        <div class="dropdown-content">
+            <a href="#home">Web Design</a>
+            <a href="#about">App Development</a>
+            >
+        </div>
+    </div>
+
+    <a href="#contact">Contact</a>
+</div>
+
+<div id="home" class="section">
+    <h1>Welcome to My Website</h1>
+    <p>This is Naranjana Home Page.</p>
+</div>
+
+<div id="about" class="section">
+    <h1>About Me</h1>
+    <p>I am learning Web Development.</p>
+</div>
+
+<div id="contact" class="section">
+    <h1>Contact</h1>
+    <p>Email:niranjanasivakumar123@.com</p>
+</div>
+
+</body>
+</html>
